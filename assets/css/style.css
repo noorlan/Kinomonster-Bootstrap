@@ -124,6 +124,18 @@ html, body {
 	background-color: #000000;
 }
 
+.info-block {
+	font-size: 120%;
+}
+
+.info-block .badge {
+	font-size: 80%;
+}
+
+.info-block span {
+	margin-right: 3%;
+}
+
 footer {
 	color: #777;
 	background-color: #222;
