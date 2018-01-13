@@ -41,8 +41,8 @@
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="films.html">Фильмы</a></li>
                 <li><a href="#">Сериалы</a></li>
-                <li><a href="rating.html">Рейтинг фильмов</a></li>
-                <li class="active"><a href="contact.html">Контакты</a></li>
+                <li class="active"><a href="rating.html">Рейтинг фильмов</a></li>
+                <li><a href="contact.html">Контакты</a></li>
               </ul>
             </div>
           </div>
@@ -63,24 +63,53 @@
                 </div>
               </div>
             </form>
-            <h1>Контакты</h1>
+            <h1>Рейтинг фильмов</h1>
             <hr>
-            <p>Отправьте ваш отзыв о портале КиноМонстр</p>
-            <div class="form">
-              <div class="form-group">
-                <div class="form-group">
-                  <input type="text" class="form-control input-lg" placeholder="Ваше имя">
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control input-lg" placeholder="Ваш email">
-                </div>
-                <div class="form-group">
-                  <textarea class="form-control"></textarea>
-                </div>
-                <button class="btn btn-warning pull-right">Отправить</button>
-              </div>
-              <div class="margin-8 clear"></div>
-            </div>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th></th>
+                  <th>Фильм</th>
+                  <th class="text-center">Год</th>
+                  <th class="text-center">Рейтинг</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2">
+                    <img class="img-responsive img-thumbnail" src="assets/img/inter.png" alt="Интерстеллар">
+                  </td>
+                  <td class="vert-align"><a href="show.html">Интерстеллар</a></td>
+                  <td class="text-center vert-align">2014</td>
+                  <td class="text-center vert-align"><span class="badge">8.1</span></td>
+                </tr>
+                <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2">
+                    <img class="img-responsive img-thumbnail" src="assets/img/max.png" alt="Безумный макс">
+                  </td>
+                  <td class="vert-align"><a href="#">Безумный макс</a></td>
+                  <td class="text-center vert-align">2012</td>
+                  <td class="text-center vert-align"><span class="badge">8.3</span></td>
+                </tr>
+                <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2">
+                    <img class="img-responsive img-thumbnail" src="assets/img/matrix.png" alt="Матрица">
+                  </td>
+                  <td class="vert-align"><a href="#">Матрица</a></td>
+                  <td class="text-center vert-align">1999</td>
+                  <td class="text-center vert-align"><span class="badge">8.4</span></td>
+                </tr>
+                <tr>
+                  <td class="col-lg-1 col-md-1 col-xs-2">
+                    <img class="img-responsive img-thumbnail" src="assets/img/cloud.png" alt="Облачный атлас">
+                  </td>
+                  <td class="vert-align"><a href="#">Облачный атлас</a></td>
+                  <td class="text-center vert-align">2015</td>
+                  <td class="text-center vert-align"><span class="badge">8.7</span></td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="margin-8 clear"></div>         
           </div>
           <div class="col-lg-3 col-lg-pull-9">
             <div class="panel panel-info hidden-xs">
@@ -166,7 +195,7 @@
     </div>
     <footer>
       <div class="container">
-        <p class="text-center"><a href="facebook.com">Noorlan FC</a></p>
+        <p class="text-center"><a href="index.html">Noorlan FC</a></p>
       </div>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
